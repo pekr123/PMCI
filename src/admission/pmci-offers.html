@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/output.css" rel="stylesheet">
+  <link rel="icon" href="./img/LOGO CIRCLE.png" type="image/icon type">
+  <title>PMCI</title>
+ 
+</head>
+<body class="bg-gray-300 w-full font-display font-poppins">
+<header class="bg-white shadow-2xl ">
+    <nav class="w-full flex  items-center justify-between p-6 lg:px-8">
+      <!--LOGO-->
+      <div class="flex text-[#004721] lg:flex-1 items-center text-xl">
+        <a href="index.html" class="-m-1.5 p-1.5">
+          <span class="sr-only">PMCI</span>
+          <img class="h-20 w-auto" src="./img/PMCI LOGO CIRCLE.jpg" alt="">
+        </a>
+        <a href="index.html" class="text-[#004721] text-2xl text-bold"><b>Philippine Malabon Cultural Institute<br>菲律賓嗎拉汶文化書院</b></a>
+      </div>
+
+      <!--menu bar-->
+      <div class="mobile-menu-button flex lg:hidden">
+        <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 hover:bg-gray-400">
+          <span class="sr-only">Open main menu</span>
+          <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+
+      <!--dropdowns about-->
+      <div class="hidden lg:flex lg:gap-x-12">
+        <div class="relative mx-2">
+          <button type="button" class="active:bg-gray-400 hover:bg-gray-400 p-2 rounded dropdown-toggle flex items-center gap-x-1 text-2xl font-bold text-[#004721] hover:gray-200" aria-expanded="false">
+            About
+            <svg class="size-7  text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+              <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="dropdown-menu absolute hidden top-full right-1 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-[#004721] ring-1 shadow-lg ring-gray-900/5">
+            <div class="p-4">
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/about/pmci-story.html" class="block font-semibold text-white">
+                      The Story of Philippine Malabon Cultural Institute
+                    </a>
+                  </div>
+              </div>
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/about/pmci-administration.html" class="block font-semibold text-white">
+                      PMCI Administration
+                    </a>
+                  </div>
+              </div>
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/about/pmci-mvc.html" class="block font-semibold text-white">
+                      Mission, Vision and Core Values
+                    </a>
+                  </div>
+              </div>
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/about/pmci-awards.html" class="block font-semibold text-white">
+                      Awards
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--dropdowns admission-->
+      <div class="hidden lg:flex lg:gap-x-12">
+        <div class="relative mx-2 ">
+          <button type="button" class=" hover:bg-gray-400 p-2 rounded dropdown-toggle flex items-center gap-x-1 text-2xl font-bold text-[#004721] hover:gray-200" aria-expanded="false">
+            Admission
+            <svg class="size-7 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+              <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="dropdown-menu absolute hidden top-full right-1 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-[#004721] ring-1 shadow-lg ring-gray-900/5">
+            <div class="p-4">
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/admission/pmci-offers.html" class="block font-semibold text-white">
+                      Offerings and Tuition Fees
+                    </a>
+                  </div>
+              </div>
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/admission/pmci-policy.html" class="block font-semibold text-white">
+                      Policy on Withdrawal and Refunds
+                    </a>
+                  </div>
+              </div>
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/admission/pmci-admission.html" class="block font-semibold text-white">
+                      Admission Requirements
+                    </a>
+                  </div>
+              </div>
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/admission/pmci-enrollment.html" class="block font-semibold text-white">
+                      Enrollment Procedures
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--dropdowns academics-->
+      <div class="hidden lg:flex lg:gap-x-12 ">
+        <div class="relative mx-2">
+          <button type="button" class=" hover:bg-gray-400 p-2 rounded dropdown-toggle flex items-center gap-x-1 text-2xl font-bold text-[#004721]" aria-expanded="false">
+            Academics
+            <svg class="size-7 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+              <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="dropdown-menu hidden absolute top-full right-1 bg-[#004721] z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl  ring-1 shadow-lg ring-gray-900/5">
+            <div class="p-4">
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/academics/pmci-LM.html" class="block font-semibold text-white">
+                      Learning Materials
+                    </a>
+                  </div>
+              </div>
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/academics/pmci-AC.html" class="block font-semibold text-white">
+                      Academic Calendar S.Y 2024-2025
+                    </a>
+                  </div>
+              </div>
+              <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-lime-700">
+                <div class="flex-auto">
+                    <a href="/src/academics/pmci-faculty.html" class="block font-semibold text-white">
+                      Faculty 
+                    </a>
+                  </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+ <!-- Mobile menu, show/hide based on menu open state. -->
+ <div class="navigation-menu hidden lg:hidden" role="dialog" aria-modal="true">
+  <!-- Background backdrop, show/hide based on slide-over state. -->
+  <div class="fixed inset-0 z-10"></div>
+  <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#004721] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+    <div class="flex items-center justify-between">
+      <a href="#" class="-m-1.5 p-1.5">
+        <span class="sr-only">PMCI</span>
+        <img class="h-20 w-auto" src="./img/LOGO CIRCLE.png" alt="">
+      </a>
+      <button type="button" class="close-menu -m-2.5 rounded-md p-2.5 text-white hover:bg-lime-700">
+        <span class="sr-only">Close menu</span>
+        <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    <div class="mt-6 flow-root">
+      <div class="-my-6 divide-y divide-gray-500/10">
+        <div class="space-y-2 py-6">
+          <div class="-mx-3">
+            <button type="button" class="dropdown-toggle flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-white hover:bg-lime-700" aria-controls="disclosure-1" aria-expanded="false">
+              About
+              <!--
+                Expand/collapse icon, toggle classes based on menu open state.
+
+                Open: "rotate-180", Closed: ""
+              -->
+              <svg class="size-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <!-- 'Product' sub-menu, show/hide based on menu state. -->
+            <div class="dropdown-menu hidden mt-2 space-y-2 text-white " id="disclosure-1">
+              <a href="/src/about/pmci-story.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold  hover:bg-lime-700">The Story of PMCI</a>
+              <a href="/src/about/pmci-administration.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold  hover:bg-lime-700">PMCI Administration</a>
+              <a href="/src/about/pmci-mvc.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold  hover:bg-lime-700">Mission, Vision and Core Values</a>
+              <a href="/src/about/pmci-awards.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold  hover:bg-lime-700">Awards</a>
+            </div>
+          </div>
+          <div class="-mx-3">
+            <button type="button" class="dropdown-toggle flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-white hover:bg-lime-700" aria-controls="disclosure-1" aria-expanded="false">
+              Admission
+              <!--
+                Expand/collapse icon, toggle classes based on menu open state.
+
+                Open: "rotate-180", Closed: ""
+              -->
+              <svg class="size-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <!-- 'Product' sub-menu, show/hide based on menu state. -->
+            <div class="dropdown-menu hidden mt-2 space-y-2 text-white" id="disclosure-2">
+              <a href="/src/admission/pmci-offers.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold  hover:bg-lime-700">Offerings and Tuition Fees</a>
+              <a href="/src/admission/pmci-policy.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold  hover:bg-lime-700">Policy on Withdrawal and Refunds</a>
+              <a href="/src/admission/pmci-admission.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold  hover:bg-lime-700">Admission Requirements</a>
+              <a href="/src/admission/pmci-enrollment.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold  hover:bg-lime-700">Enrollment Procedures</a>
+            </div>
+          </div>
+          <div class="-mx-3">
+            <button type="button" class="dropdown-toggle flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-white hover:bg-lime-700" aria-controls="disclosure-1" aria-expanded="false">
+              Academics
+              <!--
+                Expand/collapse icon, toggle classes based on menu open state.
+
+                Open: "rotate-180", Closed: ""
+              -->
+              <svg class="size-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <!-- 'Product' sub-menu, show/hide based on menu state. -->
+            <div class="dropdown-menu hidden mt-2 space-y-2 text-white" id="disclosure-3">
+              <a href="/src/academics/pmci-LM.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold hover:bg-lime-700">Learning Materials</a>
+              <a href="/src/academics/pmci-AC.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold hover:bg-lime-700">Academic Calendar </a>
+              <a href="/src/academics/pmci-faculty.html" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold hover:bg-lime-700">Faculty</a>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+
+</nav>
+</header>
+<main class="px-50 py-10">
+  <div class="content  px-80">
+    <h1 class="font-extrabold text-justify-start text-5xl text-[#004721]">Offerings and Tuition Fees</h1><br><br>
+    <h3 class="font-extrabold text-2xl">ELEMENTARY</h3>
+    <br>
+    <div class="pl-15">
+      <li class="text-justify text-2xl">KINDER 1  </li>
+      <li class="text-justify text-2xl">KINDER 2  </li>
+      <li class="text-justify text-2xl">GRADE 1  </li>
+      <li class="text-justify text-2xl">GRADE 2 </li>
+      <li class="text-justify text-2xl">GRADE 3  </li>
+      <li class="text-justify text-2xl">GRADE 4 </li>
+      <li class="text-justify text-2xl">GRADE 5  </li>
+      <li class="text-justify text-2xl">GRADE 6 </li>
+      </div><br><br>
+      <h3 class="font-extrabold text-2xl">JUNIOR HIGH SCHOOL</h3>
+      <br>
+      <div class="pl-15">
+        <li class="text-justify text-2xl">GRADE 7  </li>
+        <li class="text-justify text-2xl">GRADE 8  </li>
+        <li class="text-justify text-2xl">GRADE 9  </li>
+        <li class="text-justify text-2xl">GRADE 10  </li>
+        </div><br><br>
+        <h3 class="font-extrabold text-2xl">SENIOR HIGH SCHOOL</h3>
+      <br>
+      <div class="pl-15">
+        <li class="text-justify text-2xl">General Academic Strand (GAS)  </li>
+        <li class="text-justify text-2xl">Accountancy, Business, and Management (ABM) Strand </li>
+          <div class="pl-15">
+            <li class="text-justify text-2xl">GRADE 11  </li>
+            <li class="text-justify text-2xl">GRADE 12  </li>
+          </div><br><br>
+        </div>
+        <h3 class="font-extrabold text-2xl">TUITION FEES</h3>
+
+        <div class="pl-15">
+          <li class="text-justify text-2xl">DDD  </li>
+        </div><br><br>
+  </div>
+</main>
+  <footer class="h-full w-full">
+      <div class="bg-[#004721] w-full p-4 py-6 lg:py-8">
+          <div class="md:flex md:justify-between mx-10">
+            <div class="mb-6 md:mb-0 mr-25 my-5">
+                <a href="" class="flex items-center">
+                    <img src="img/LOGO CIRCLE.png" class="h-20 me-3"  />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Philippine Malabon Cultural Institute<br>菲律賓嗎拉汶文化書院<br><i class="text-sm" >
+                      @2024 PMCI.
+                      All Rights Reserved
+                    </i>
+                  </span>
+                </a>
+            </div>
+            
+            <div>
+              <h2 class="mb-4 text-sm font-extrabold text-gray-900 uppercase dark:text-white">Address</h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="https://maps.app.goo.gl/mt2fRDVNF5Lcq9Xq7" class="flex items-center gap-2 text-white hover:underline">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30">
+                      <path d="M 15 2 A 1 1 0 0 0 14.300781 2.2851562 L 3.3925781 11.207031 A 1 1 0 0 0 3.3554688 11.236328 L 3.3183594 11.267578 L 3.3183594 11.269531 A 1 1 0 0 0 3 12 A 1 1 0 0 0 4 13 L 5 13 L 5 24 C 5 25.105 5.895 26 7 26 L 23 26 C 24.105 26 25 25.105 25 24 L 25 13 L 26 13 A 1 1 0 0 0 27 12 A 1 1 0 0 0 26.681641 11.267578 L 26.666016 11.255859 A 1 1 0 0 0 26.597656 11.199219 L 25 9.8925781 L 25 6 C 25 5.448 24.552 5 24 5 L 23 5 C 22.448 5 22 5.448 22 6 L 22 7.4394531 L 15.677734 2.2675781 A 1 1 0 0 0 15 2 z M 18 15 L 22 15 L 22 23 L 18 23 L 18 15 z"></path>
+                    </svg>
+                    <span>9 Azucena St. Longos, Malabon City</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="text-gray-500 dark:text-gray-400 font-medium font-">
+              <!-- Contact Us Header -->
+              <h2 class="mb-4 text-sm font-extrabold text-gray-900 uppercase dark:text-white">Contact Us</h2>
+            
+              <!-- Flex Container for Alignment -->
+              <div class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-6">
+            
+                <!-- Facebook Link -->
+                <div class="flex items-center gap-2">
+                  <a href="https://www.facebook.com/PMCI1958" class="flex items-center gap-2 text-white hover:underline">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                      <path d="M11.666,2.005C6.62,2.17,2.374,6.251,2.025,11.288c-0.369,5.329,3.442,9.832,8.481,10.589V14.65H8.892 
+                        c-0.726,0-1.314-0.588-1.314-1.314v0c0-0.726,0.588-1.314,1.314-1.314h1.613v-1.749c0-2.896,1.411-4.167,3.818-4.167 
+                        c0.357,0,0.662,0.008,0.921,0.021c0.636,0.031,1.129,0.561,1.129,1.198v0c0,0.663-0.537,1.2-1.2,1.2h-0.442 
+                        c-1.022,0-1.379,0.969-1.379,2.061v1.437h1.87c0.591,0,1.043,0.527,0.953,1.111l-0.108,0.701c-0.073,0.47-0.477,0.817-0.953,0.817 
+                        h-1.762v7.247C18.235,21.236,22,17.062,22,12C22,6.366,17.341,1.821,11.666,2.005z"></path>
+                    </svg>
+        <span>Philippine Malabon Cultural Institute</span>
+                  </a>
+                </div>
+            
+                <!-- Email Link -->
+                <div class="flex items-center gap-2">
+                  <a href="mailto:philmalcultural58@gmail.com" class="flex items-center gap-2 text-white hover:underline">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
+                      <path d="M 14 4 C 8.4886661 4 4 8.4886661 4 14 L 4 36 C 4 41.511334 8.4886661 46 14 46 L 36 46 C 41.511334 46 46 41.511334 
+                        46 36 L 46 14 C 46 8.4886661 41.511334 4 36 4 L 14 4 z M 14 6 L 36 6 C 40.430666 6 44 9.5693339 44 14 L 44 36 C 44 40.430666 
+                        40.430666 44 36 44 L 14 44 C 9.5693339 44 6 40.430666 6 36 L 6 14 C 6 9.5693339 9.5693339 6 14 6 z M 13 15 C 11.35503 15 10 16.35503 
+                        10 18 L 10 32 C 10 33.64497 11.35503 35 13 35 L 37 35 C 38.64497 35 40 33.64497 40 32 L 40 18 C 40 16.35503 38.64497 15 37 15 L 
+                        13 15 z M 13.414062 17 L 36.583984 17 L 27.677734 25.892578 C 26.18494 27.382984 23.796834 27.382819 22.304688 25.890625 L 13.414062 
+                        17 z M 38 18.412109 L 38 31.587891 L 31.402344 25 L 38 18.412109 z M 12 18.414062 L 18.585938 25 L 12 31.585938 L 12 18.414062 z 
+                        M 29.988281 26.412109 L 36.585938 33 L 13.414062 33 L 20 26.414062 L 20.890625 27.304688 C 23.146478 29.56054 26.832638 29.562194 
+                        29.089844 27.308594 L 29.988281 26.412109 z"></path>
+                    </svg>
+                    <span>philmalcultural58@gmail.com</span>
+                  </a>
+                </div>
+            
+                <!-- Phone Number -->
+                <div class="flex items-center gap-2">
+                  <a href="tel:09568925021" class="flex items-center gap-2 text-white hover:underline">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
+                      <path d="M 14 3.9902344 C 8.4886661 3.9902344 4 8.4789008 4 13.990234 L 4 35.990234 C 4 41.501568 8.4886661 45.990234 14 
+                        45.990234 L 36 45.990234 C 41.511334 45.990234 46 41.501568 46 35.990234 L 46 13.990234 C 46 8.4789008 41.511334 
+                        3.9902344 36 3.9902344 L 14 3.9902344 z M 18.005859 12.033203 C 18.633859 12.060203 19.210594 12.414031 
+                        19.558594 12.957031 C 19.954594 13.575031 20.569141 14.534156 21.369141 15.785156 C 22.099141 16.926156 
+                        22.150047 18.399844 21.498047 19.589844 L 20.033203 21.673828 C 19.637203 22.237828 19.558219 22.959703 
+                        19.824219 23.595703 C 20.238219 24.585703 21.040797 26.107203 22.466797 27.533203 C 23.892797 28.959203 
+                        25.414297 29.761781 26.404297 30.175781 C 27.040297 30.441781 27.762172 30.362797 28.326172 29.966797 L 
+                        30.410156 28.501953 C 31.600156 27.849953 33.073844 27.901859 34.214844 28.630859 C 35.465844 29.430859 
+                        36.424969 30.045406 37.042969 30.441406 C 37.585969 30.789406 37.939797 31.366141 37.966797 31.994141 
+                        C 38.120797 35.558141 35.359641 37.001953 34.556641 37.001953 C 34.000641 37.001953 27.316344 37.761656 
+                        19.777344 30.222656 C 12.238344 22.683656 12.998047 15.999359 12.998047 15.443359 C 12.998047 14.640359 
+                        14.441859 11.879203 18.005859 12.033203 z"></path>
+                    </svg>
+                    <span>09568925021</span>
+                  </a>
+                </div>
+            
+              </div>
+            </div>
+            
+  </footer>
+  <script>document.addEventListener("DOMContentLoaded", () => {
+
+    // Select all dropdown toggle buttons
+    const dropdownToggles = document.querySelectorAll(".dropdown-toggle")
+
+
+    dropdownToggles.forEach((toggle) => {
+      toggle.addEventListener("click", () => {
+        // Find the next sibling element which is the dropdown menu
+        const dropdownMenu = toggle.nextElementSibling
+  
+        // Toggle the 'hidden' class to show or hide the dropdown menu
+        if (dropdownMenu.classList.contains("hidden")) {
+          // Hide any open dropdown menus before showing the new one
+          document.querySelectorAll(".dropdown-menu").forEach((menu) => {
+            menu.classList.add("hidden")
+          })
+
+          dropdownMenu.classList.remove("hidden")
+        } else {
+          dropdownMenu.classList.add("hidden")
+        }
+      })
+    })
+  
+    // Clicking outside of an open dropdown menu closes it
+    window.addEventListener("click", function (e) {
+      if (!e.target.matches(".dropdown-toggle")) {
+        document.querySelectorAll(".dropdown-menu").forEach((menu) => {
+          if (!menu.contains(e.target)) {
+            menu.classList.add("hidden")
+          }
+        })
+      }
+    })
+    
+    // Mobile menu toggle
+    
+    const mobileMenuButton = document.querySelector('.mobile-menu-button')
+    const mobileMenu = document.querySelector('.navigation-menu')
+    const closeMenuButton = document.querySelector('.close-menu')
+    
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden')
+    })
+    closeMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden'); // Hide the mobile menu
+    })
+    
+    
+  })
+  </script>
+</body>
+</html>
